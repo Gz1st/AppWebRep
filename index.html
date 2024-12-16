@@ -3,40 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Гумова Таблична Верстка</title>
-    <style>
-        table {
-            width: 100%;
-            height: 100vh;
-            border-collapse: collapse;
-            border: 1px solid black;
-        }
-        td {
-            border: 1px solid black;
-            text-align: center;
-        }
-        .blue {
-            background-color: blue;
-            color: white;
-        }
-        .yellow {
-            background-color: yellow;
-        }
-    </style>
+    <title>Професія Java-розробник</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <table>
-        <tr>
-            <td class="blue" colspan="3">1</td>
-        </tr>
-        <tr>
-            <td class="yellow">5</td>
-            <td>4</td>
-            <td class="yellow">2</td>
-        </tr>
-        <tr>
-            <td class="blue" colspan="3">3</td>
-        </tr>
-    </table>
+    <!-- Заголовок -->
+    <header class="header">
+        <h1 class="title">Професія <span>Java-розробник</span></h1>
+        <div class="header-features">
+            <div>Портфоліо для старту кар'єри</div>
+            <div>Навчання на реальних кейсах</div>
+            <div>Заробіток після 4 місяців навчання</div>
+            <div>Можна працювати віддалено</div>
+        </div>
+    </header>
+
+    <!-- Як проходить навчання -->
+    <section class="steps">
+        <h2>Як проходить навчання</h2>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Дивіться відеолекції</h3>
+                <p>Якісне відео з зрозумілим поясненням теорії.</p>
+                <img src="/img/video_1.png" alt="Відео">
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Робите завдання і відправляєте на перевірку</h3>
+                <p>Поспішати не треба, вибирайте зручний режим навчання.</p>
+                <img src="/img/hopo_2.png" alt="Завдання">
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Чи отримуєте розбір вашої роботи</h3>
+                <p>Ваш куратор розповість про помилки і про те, як їх виправити.</p>
+                <img src="/img/hpto_3.png" alt="Розбір роботи">
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Чи працюєте над помилками</h3>
+                <p>Проходьте перевірку ще раз, щоб переконатися, що в цей раз все правильно.</p>
+                <img src="/img/prof-test.png" alt="Помилки">
+            </div>
+        </div>
+    </section>
+
+    <!-- Рівні навчання -->
+    <section class="levels">
+        <h2>Рівні навчання</h2>
+        <div class="level">
+            <img src="/img/level1.png" alt="Перший рівень">
+            <div class="level-text">
+                <h3>Перший рівень: чітка і зрозуміла теорія</h3>
+                <p>За 4 місяці ви пройдете 16 тем. Ви навчитеся базовим навичкам і створите дипломний проект.</p>
+            </div>
+        </div>
+        <div class="level">
+            <img src="/img/level2.png" alt="Другий рівень">
+            <div class="level-text">
+                <h3>Другий рівень: інтенсивна практика</h3>
+                <p>В складі команди створите власну соціальну мережу та максимально наблизитеся до реальних умов роботи.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Підвал -->
+    <footer class="footer">
+        <p>© 2024</p>
+        <div class="icons">
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="telegram.png" alt="Telegram"></a>
+        </div>
+    </footer>
 </body>
 </html>
